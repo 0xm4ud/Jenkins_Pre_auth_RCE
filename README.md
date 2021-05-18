@@ -7,12 +7,12 @@
       -h, --help            show this help message and exit
       -r RHOST, --rhost=RHOST
                             [ Requeired ] Target ip address
-      -P LPORT, --lport=LPORT
-                            LPORT
-      -l LHOST, --lhost=LHOST
-                            [ Requeired ] LHOST
       -p RPORT, --rport=RPORT
                             RPORT
+      -l LHOST, --lhost=LHOST
+                            [ Requeired ] LHOST
+      -P LPORT, --lport=LPORT
+                            LPORT
                             
                             
  
