@@ -1,3 +1,7 @@
+# Jenking pre-auth RCE straight to shell
+# CVE-2019–1003000
+# (m4ud)
+
 import requests
 import binascii
 import sys
